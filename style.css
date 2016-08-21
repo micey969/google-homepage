@@ -1,0 +1,125 @@
+body,#page{
+    padding: 0;
+    color: #222;
+    margin: 0;
+	height: 100%;
+    font-size: small;
+}
+body, a, p{
+    font-family: arial,sans-serif;
+}
+/*----------TopNav---------------*/
+#navbar{
+    position: absolute;
+    height: 40px;
+   	top: 10px;
+    right: 0;
+    width: 100%;
+    font-size: 15px;
+}
+#navbar .list{
+	padding-top: 5px;
+	height: 100%;
+}
+.list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   `background: #f1f1f1;
+}
+
+.list ul li {
+    float: right;
+
+}
+.list a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+.list ul .nav{
+    padding-top: 7px;
+}
+.list ul .apps{
+	padding-left: 5px;
+}
+.list .si{
+    background: #3385ff;
+    margin-right: 30px;
+    margin-left: 10px;
+    border-radius: 5%;
+    padding: 5px 5px 0;
+    height: 30px;
+}
+.list .si a{
+	color: white;
+}
+/*------------Logo---------------*/
+#body{
+	display: block;
+	margin-top: 100px;
+}
+.cpt{
+    margin: 0 auto;
+    min-width: 980px;
+}
+#lga{
+    height: 200px;
+    margin-top: 30px;
+}
+#logo{
+    display: inline-block;
+    position: relative;
+}
+
+/*----------Searchbar-----------*/
+#searchbar {
+    margin-top: 0;
+    position: absolute;
+    min-width: 980px;
+    width: 100%;
+}
+.search{
+    width: 500px;
+    height: 30px;
+}
+.ifl{
+    padding-top: 18px;
+}
+.ifl .btn{
+    height: 36px;
+    line-height: 27px;
+}
+/*-------------Footer-------------*/
+#main #footer {
+    display: block;
+    font-size: 13px;
+    height: 30px;
+    bottom: 0;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 0;
+    background: #f1f1f1;
+    border-top: 1px solid #e4e4e4;
+    width: 100%;
+}
+#footer a{
+    text-decoration: none;
+    padding: 15px;
+    color:#666;
+}
+#ftbar{   
+    min-width: 980px;
+    margin-left: -20px;
+}
+#ftr {
+  margin-right: 30px;
+  float: right;
+  white-space: nowrap;
+}
+#ftl {
+  margin-left: 30px;
+  white-space:  nowrap;
+}
+
