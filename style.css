@@ -10,9 +10,9 @@ body, a, p{
 }
 /*----------TopNav---------------*/
 #navbar{
-    position: absolute;
+    position: relative;
     height: 40px;
-   	top: 10px;
+   	top: 20px;
     right: 0;
     width: 100%;
     font-size: 15px;
@@ -56,9 +56,12 @@ body, a, p{
 	color: white;
 }
 /*------------Logo---------------*/
-#body{
+#main, .body{
+    position: relative;
+}
+#body,{
 	display: block;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 .cpt{
     margin: 0 auto;
@@ -75,8 +78,8 @@ body, a, p{
 
 /*----------Searchbar-----------*/
 #searchbar {
-    margin-top: 0;
-    position: absolute;
+    margin-top: 10px;
+    position: relative;
     min-width: 980px;
     width: 100%;
 }
@@ -92,12 +95,12 @@ body, a, p{
     line-height: 27px;
 }
 /*-------------Footer-------------*/
-#main #footer {
+#footer {
     display: block;
     font-size: 13px;
     height: 30px;
     bottom: 0;
-    position: absolute;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 0;
     background: #f1f1f1;
